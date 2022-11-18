@@ -132,7 +132,7 @@ function searchResultsrender(data = []) {
                 <hr>
                 <div class="row row-cols-2">
                   <p class="card-text">JANR :</p>
-                <p class="card-text">${el.cotegories}</p>
+                <p class="card-text">${el.category}</p>
                 <p class="card-text">YILI :</p>
                 <p class="card-text">${el.year}</p>
                 <p class="card-text">REYTING :</p>
