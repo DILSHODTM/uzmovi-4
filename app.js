@@ -54,7 +54,7 @@ function renderAllmovies() {
                         <a href="${el.link}"class="nav-link bg-primary p-2 rounded" target="_blank"
                         ><i class="bi bi-tv"></i> Treyler</a>
                         <button class="btn btn-success" data-read="${el.id}">Ko'rish</button>
-                        <button class="btn btn-danger btn-love" data-add="${el.id}" >Salom</button>
+                        <button class="btn btn-danger btn-love" data-add="${el.id}" >ADD</button>
                       </div>
                     </div>`;
     $(".wraps").appendChild(card);
@@ -145,7 +145,7 @@ function searchResultsrender(data = []) {
                 <a href="${el.link}"class="nav-link bg-primary p-2 rounded" target="_blank"
                 ><i class="bi bi-tv"></i> Treyler</a>
                   <button class="btn btn-success" data-read="${el.id}">Ko'rish</button>
-                  <button class="btn btn-danger btn-love" data-add="${el.id}" >Salom</button>
+                  <button class="btn btn-danger btn-love" data-add="${el.id}" >ADD</button>
                 </div>
               </div>`;
     $(".wraps").appendChild(card);
@@ -275,7 +275,7 @@ function addBookmark(ID) {
           <p>Year :  ${e.year}</p>
            
       </div>
-      <button class="btn btn-danger removes" id="${e.id}">remove</button> 
+      <button class="btn btn-danger removes" id="${e.id}">Remove</button> 
        </div>`
       );
       $(".adds").appendChild(div);
